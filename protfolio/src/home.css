@@ -5,6 +5,7 @@
 font-weight: 900;
 font-size: 25px; 
 font-family: "Josefin Sans", sans-serif;
+
 }
 #navBar{
   padding: 8px; 
@@ -18,6 +19,14 @@ font-family: "Josefin Sans", sans-serif;
 .nav-item{
     margin: 10px;
     font-size: 18px;
-
-      font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
+.nav-item .nav-link:hover{
+  color: blueviolet;
+  font-weight: 900;
+}
+
+ .navbar-toggler{
+color:blueviolet;
+ }
+ 
