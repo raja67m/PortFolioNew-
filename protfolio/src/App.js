@@ -2,7 +2,8 @@ import Home from "./home";
 import About from "./about";
 import Project from "./project";
 import Contact from "./contact";
-import NavigationBar from "./navbar";
+import Newnav from "./newnav";
+
 import { Routes,Route} from "react-router";
 
 
@@ -11,7 +12,7 @@ import { Routes,Route} from "react-router";
 function App() {
   return (
    <div>
-     <NavigationBar/>
+<Newnav/>
     <Routes>
      
       <Route path="/" element={<Home/>}/>

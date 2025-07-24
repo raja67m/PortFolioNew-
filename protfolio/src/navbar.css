@@ -9,6 +9,7 @@ font-family: "Josefin Sans", sans-serif;
 #navbarScroll{
   padding: 8px; 
   background-color: white;
+align-items: left;
 /* box-shadow:  25px 25px 77px #aaaaaa,
              -25px -25px 77px #ffffff; */
 }
