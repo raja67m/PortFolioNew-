@@ -2,7 +2,7 @@ import Home from "./home";
 import About from "./about";
 import Project from "./project";
 import Contact from "./contact";
-import Newnav from "./newnav";
+import NavigationBar from "./navbar";
 
 import { Routes,Route} from "react-router";
 
@@ -12,13 +12,13 @@ import { Routes,Route} from "react-router";
 function App() {
   return (
    <div>
-<Newnav/>
+<NavigationBar/>
     <Routes>
      
       <Route path="/" element={<Home/>}/>
-    <Route path="/about" element={<About/>}/>
-     <Route path="/project" element={<Project/>}/>
-         <Route path="/contact" element={<Contact/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/project" element={<Project/>}/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
    
    </div>

@@ -5,9 +5,10 @@
 font-weight: 900;
 font-size: 25px; 
 font-family: "Josefin Sans", sans-serif;
+margin-left: 10px;
 }
 #navbarScroll{
-  padding: 8px; 
+  padding: 14px; 
   background-color: white;
 align-items: left;
 /* box-shadow:  25px 25px 77px #aaaaaa,
@@ -15,6 +16,6 @@ align-items: left;
 }
 .nav-item{
 margin: 6px;
-font-size: 17px;
+font-size: 19px;
 font-family: "Josefin Sans", sans-serif;
 }

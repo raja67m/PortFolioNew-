@@ -10,7 +10,7 @@ font-family: "Josefin Sans", sans-serif;
 header .navbar{
   padding: 8px; 
   background-color: white;
-/* box-shadow:  25px 25px 77px #aaaaaa,
+/* box-shadow:  25px 25px 77px #f9f7f7,
              -25px -25px 77px #ffffff; */
 }
 .navbar-nav{
@@ -33,4 +33,9 @@ cursor: pointer;
  .navbar-toggler{
 color:blueviolet;
  }
-
+.navconnect{
+  text-decoration: none;
+}
+.Home{
+  background-color: blue;
+}
