@@ -1,41 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-.navbar .navbar-brand{
-font-weight: 900;
-font-size: 29px; 
+#intro h1{
+  
 font-family: "Josefin Sans", sans-serif;
-
+font-weight: 1000;
+font-size: 65px;
+margin-top: 100px;
+line-height: 80px;
+text-transform: capitalize;
 }
-header .navbar{
-  padding: 8px; 
-  background-color: white;
-/* box-shadow:  25px 25px 77px #f9f7f7,
-             -25px -25px 77px #ffffff; */
-}
-.navbar-nav{
-  margin-left: 40%;
-}
-.nav-item{
-    margin: 10px;
-    font-size: 18px;
-  font-family: "Josefin Sans", sans-serif;
-}
-.nav-item li{
-text-decoration: none;
-cursor: pointer;
-}
-.nav-item .nav-link:hover{
-  color: blueviolet;
-  font-weight: 900;
-}
-
- .navbar-toggler{
-color:blueviolet;
- }
-.navconnect{
-  text-decoration: none;
-}
-.Home{
-  background-color: blue;
+#intro p{
+font-family: "Josefin Sans", sans-serif;
+font-size: 20px;
+color: rgb(107, 107, 107);
 }
