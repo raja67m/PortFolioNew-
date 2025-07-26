@@ -15,3 +15,30 @@ font-family: "Josefin Sans", sans-serif;
 font-size: 20px;
 color: rgb(107, 107, 107);
 }
+/* contact buttons */
+
+#contact{
+background-color: blueviolet;
+border-radius:0px;
+border: none;
+padding: 5px 25px;
+margin: 5px;
+font-size: 20px;
+ font-family: "Josefin Sans", sans-serif;
+ font-weight: bold;
+}
+#github{
+   background-color: black;
+border-radius:0px;
+border: none;
+padding: 5px 25px;
+margin: 5px;
+font-size: 20px;
+ font-family: "Josefin Sans", sans-serif;
+ font-weight: bold; 
+}
+#profile{
+    cursor: pointer;
+    border-radius: 0px;
+    margin:50px 0px 50px 0px;
+}
