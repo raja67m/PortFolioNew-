@@ -1,6 +1,6 @@
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import profile from './raja.png';
+import profile from './raja.jpg';
 
 
 function Home(){
@@ -23,7 +23,7 @@ return(
                  {/* profile intro end */}
 
                  {/* profile image  start*/}
-                 <div class="col-lg-4 col-sm-12" id='profile'>
+                 <div class="col-lg-4 " id='profile'>
                   <img src={profile} class="img-thumbnail" alt='Not Visible'/>
                  </div>
                      {/* profile image  end*/}

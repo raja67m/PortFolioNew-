@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+
+
 #intro h1{
-  
 font-family: "Josefin Sans", sans-serif;
 font-weight: 1000;
 font-size: 65px;
@@ -41,4 +42,20 @@ font-size: 20px;
     cursor: pointer;
     border-radius: 0px;
     margin:50px 0px 50px 0px;
+}
+
+/* mobile based responsive desing */
+@media  screen and (max-width:768px) {
+   #intro h1{
+font-size: 45px;
+margin-top: 50px;
+line-height: 50px;
+}
+
+#contact{
+    margin-left: 70px;
+}
+  #profile{
+    margin-left: 80px;
+  }  
 }
