@@ -101,5 +101,10 @@ padding: 10px;
   border-radius: 8px;
 }
 #summary{
-  margin-top:50px;
+  margin-top:70px;
+}
+#summary h1{
+  font-family: "Josefin Sans", sans-serif;
+font-weight: 1000;
+font-size: 35px;
 }

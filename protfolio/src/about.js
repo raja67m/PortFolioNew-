@@ -5,6 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { SiGithub } from "react-icons/si";  
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import TabsBased from './tabs';
 
 function About(){
     return<div class="container-fluid" id='about'>
@@ -36,10 +37,14 @@ function About(){
                                  <p>Lorem ipsum" is placeholder text commonly used in design and development to fill space and demonstrate layout without distracting from the visual presentation. While "lorem" itself is not a CSS property or value, it is frequently used within HTMLtags to generate this dummy text.</p> 
                                      {/* contact button start */}
                                          <div class="row-lg-12">
-                                          <button type="button" class="btn btn-primary" id='contact'>My Project</button>         
+                                             <button type="button" class="btn btn-primary" id='contact'>My Project</button>         
                                              <button type="button" class="btn btn-primary" id='github'>Download CV</button>         
-                                   </div> 
+                                          </div> 
                                         {/* contact button end */}
+
+                                        {/* About Skills & education start */}
+                                        <TabsBased/>
+                                        {/* About Skills & education end */}
 
                             </div>
                         
