@@ -29,3 +29,16 @@ display: none;
 #tab-page.active{
     display: block;
 }
+#skill{
+  margin-left: 50px;
+}
+#skill h6{
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(65, 2, 124);
+  font-weight: 800;
+  font-size: 20px;
+}
+#skill ul{
+  margin-left: 20px;
+list-style-type:circle;
+}
